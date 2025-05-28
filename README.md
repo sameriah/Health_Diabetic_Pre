@@ -3,7 +3,9 @@
 
 The growing burden of undiagnosed or late-diagnosed diabetes poses a critical challenge in preventive healthcare. Using medical records from a dataset of Pima Indian women aged 21+, the goal is to build a model that can accurately predict whether an individual has diabetes or not, based on diagnostic features like blood glucose, BMI, and insulin levels.
 
+
 **Approach:**
+
 Loaded the dataset and performed data cleaning, missing values, dropping zero variance columns, and reformatting the data for better readability and analysis; Ensuring the date column was in the correct date format, and converting any text columns with only two unique values into binary type.
 
 Explored Variable Distributions: Used histograms and boxplots to understand spread and detect outliers.
